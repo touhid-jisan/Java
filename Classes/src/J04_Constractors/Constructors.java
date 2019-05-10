@@ -10,7 +10,10 @@ package J04_Constractors;
  * @author TouhidulIslam
  */
 public class Constructors {
-    public static void main (String[] srgs) {
-        
+    public static void main (String[] args) {
+        MyClass obj1 = new MyClass(1969, "Mustang");
+        obj1.x = 10;
+        System.out.println(obj1.x);
+        System.out.println("Car Name : " +obj1.modelName + ", Model Year: " + obj1.modelYear);
     }
 }
