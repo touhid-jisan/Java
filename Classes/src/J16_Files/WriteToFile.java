@@ -19,8 +19,8 @@ public class WriteToFile {
     public static void main(String[] args) {
         try {
              File myFileOne = new File("D:\\Education\\tutorial\\practice\\java-practice\\Classes\\src\\J16_Files\\fileOne.txt");
-             myFileOne.write("Line One \n Line two");
-             myFileOne.close();
+             //myFileOne.write("Line One \n Line two");
+             //myFileOne.close();
              System.out.println("Successfully wrote to the file");
         } catch(Exception e) {
             System.out.println("An error occured");
