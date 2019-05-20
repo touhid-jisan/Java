@@ -3,6 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+// includes business logic related to user
+// managers classes doesnt use static class
 package managers;
 
 import app.User;
