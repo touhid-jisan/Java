@@ -10,7 +10,7 @@ package J08_Polymorphism.UserExample;
  * @author TouhidulIslam
  */
 public class UserTest {
-    public void printUserType(User u) {
+    public void printUserType(User u) { 
         u.printUserType();
     }
     
@@ -19,7 +19,7 @@ public class UserTest {
         User user = new User();
         User staff = new Staff();
         User editor = new Editor();
-        
+
         
         UserTest ut = new UserTest(); 
         ut.printUserType(user);
